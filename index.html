@@ -6,13 +6,14 @@
     <title>Foundation</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
+	 <script src="js/snap.svg-min.js"></script>
   </head>
   <body>
     
         <div class="row">
             
               <div class="small-12 columns">
-                  <img src="img/151005_WEATHER%20APP%20titulo.svg" alt="TITLE">
+                  <img src="img/151005_WEATHER%20APP%20titulo%20long.svg" alt="TITLE">
                   <!--<p>THE NEWS REPORTER WEATHER APP (stage 1)</p>-->
               </div>
         </div>
@@ -22,100 +23,119 @@
       
       <div class="small-2 columns"><!--Columna para la hora-->
                   
-            <img src="img/151005_WEATHER%20APP%20Time%20Big.svg" alt="TIME">
-            
-            <!--<ul>
-                  <li>00:00</li>
-                  <li>01:00</li>
-                  <li>02:00</li>
-                  <li>03:00</li>
-                  <li>04:00</li>
-                  <li>05:00</li>
-                  <li>06:00</li>
-                  <li>07:00</li>
-                  <li>08:00</li>
-                  <li>09:00</li>
-                  <li>10:00</li>
-                  <li>11:00</li>
-                  <li>12:00</li>
-                  <li>13:00</li>
-                  <li>14:00</li>
-                  <li>15:00</li>
-                  <li>16:00</li>
-                  <li>17:00</li>
-                  <li>18:00</li>
-                  <li>19:00</li>
-                  <li>20:00</li>
-                  <li>21:00</li>
-                  <li>22:00</li>
-                  <li>23:00</li>
-            </ul>-->
-            
-            </div><!--Aqui termina la columna para la hora--> 
+            <img src="img/151005_big%20square.svg" alt="white square">
+                
+      </div><!--Aqui termina la columna para la hora--> 
               
       <div class="small-8 columns">
             <div class="row"><!--Columnas del clima--> 
               <div class="small-3 columns">
-                  <img src="img/cloud.svg" alt="CLOUDS">
+					  <!--<img src="img/cloud.svg" alt="CLOUDS">-->
+					  
+					  <svg id="cloud" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="215 -104 1041 1000" style="enable-background:new 215 -104 1041 1000;" xml:space="preserve">
+						
+					  <path id="cloudBorder" d="M291.2,707C240.4,655.8,215,594.3,215,522.7c0-75.8,27.3-139.4,81.9-190.6s120.2-74,196.9-68.1
+							c21.7-62.5,59.4-113.1,113.1-151.9s114-58.1,180.6-58.1c85.8,0,159.4,30.4,220.6,91.2s91.9,134.6,91.9,221.2v7.5
+							c45.8,11.7,83.3,36,112.5,73.1s43.8,79.8,43.8,128.1c0,57.5-20.4,106.7-61.2,147.5s-90,61.2-147.5,61.2H475
+							C403.3,783.9,342.1,758.3,291.2,707z M978.8,471.4l12.5-62.5c3.3-18.3,5-32.5,5-42.5c0-57.5-20.4-106.5-61.2-146.9
+							c-40.8-40.4-90-60.6-147.5-60.6c-50.8,0-95.4,16.5-133.8,49.4s-62.1,74.4-71.2,124.4l-8.8,57.5l-56.2-16.2c-15.8-5-30-7.5-42.5-7.5
+							c-43.3,0-80.2,15.2-110.6,45.6c-30.4,30.4-45.6,67.3-45.6,110.6s15.2,80.2,45.6,110.6s67.3,45.6,110.6,45.6h572.5
+							c29.2,0,54-10.2,74.4-30.6s30.6-44.8,30.6-73.1s-10-52.9-30-73.8c-20-20.8-43.3-31.2-70-31.2L978.8,471.4z"/>
+					  </svg>
               </div>
+					
               <div class="small-3 columns">
-                  <img src="img/water.svg" alt="RAIN SNOW">
+                  <!--<img src="img/water.svg" alt="RAIN SNOW">-->
+					  
+					<svg id="rain" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="206 -116 1024 1024" style="enable-background:new 206 -116 1024 1024;" xml:space="preserve">
+					<style type="text/css">
+						.st0{fill:none;stroke:#000000;stroke-width:50;stroke-linejoin:round;stroke-miterlimit:10;}
+					</style>
+					<path id="rainBorder"  class="st0" d="M699.8-57.5C662.4,241.2,443.5,451.4,443.5,593c0,141.7,114.8,256.5,256.3,256.5S956.1,734.7,956.1,593
+						C956.1,451.4,737.2,241.2,699.8-57.5z"/>
+					</svg>
+					  
               </div>
+					
               <div class="small-3 columns">
-                  <img src="img/moon.svg" alt="MOON">
+					  <!--<img src="img/moon.svg" alt="MOON">-->
+					  
+					  <svg id="night" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="158 -104 928 1000" style="enable-background:new 158 -104 928 1000;" xml:space="preserve">
+					  <style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:50;stroke-linejoin:round;stroke-miterlimit:10;}
+					  </style>
+					  <path id="nightBorder" class="st0" d="M806.8,536.5c57.3,0,113.3-15.3,167.9-45.9c-22.9,79.2-67.3,144-133.1,194.5s-140.8,75.8-224.9,75.8
+	c-102.7,0-190.6-36.5-263.8-109.4s-109.8-161-109.8-264.2c0-84.1,25.3-159,75.8-224.9s115.5-110,194.7-132.9
+	c-30.6,54.6-45.9,110.6-45.9,167.9c0,93.9,33.2,173.9,99.5,240S713.4,536.5,806.8,536.5z"/>
+					  </svg>
+					  
               </div>
+
               <div class="small-3 columns">
-                  <img src="img/sun.svg" alt="SUN">
+					  <img src="img/sun.svg" alt="SUN">
+					  
+				
+					  
               </div>
                   
             </div><!--end of img row 1-->
-
-            <div class="row">
-            <div class="small-12 columns">
-                  <img src="img/150928_WEATHER%20APP%20INTERFACE.svg" alt="Weather interface">
-            </div>
-            
-            </div><!--end of img row 2-->
             
       </div><!--end of class large-8 columns-->
           
-        <div class="small-2 columns"><!--columna para marco de color nad mas.-->
-           <ul>
-                  <li>00:00</li>
-                  <li>01:00</li>
-                  <li>02:00</li>
-                  <li>03:00</li>
-                  <li>04:00</li>
-                  <li>05:00</li>
-                  <li>06:00</li>
-                  <li>07:00</li>
-                  <li>08:00</li>
-                  <li>09:00</li>
-                  <li>10:00</li>
-                  <li>11:00</li>
-                  <li>12:00</li>
-                  <li>13:00</li>
-                  <li>14:00</li>
-                  <li>15:00</li>
-                  <li>16:00</li>
-                  <li>17:00</li>
-                  <li>18:00</li>
-                  <li>19:00</li>
-                  <li>20:00</li>
-                  <li>21:00</li>
-                  <li>22:00</li>
-                  <li>23:00</li>
-            </ul>
-        </div>
+      <div class="small-2 columns"><!--columna para marco de color nada mas.-->
+           
+              <img src="img/151005_big%20square.svg" alt="white square">
+        
+      </div>
 </div><!--end row 1-->
+ 
+<div class="row">
+      <div class="small-12 columns">
+            <img src="img/151005_WEATHER%20APP%20Time%20and%20Weather.svg" alt="Weather interface">
+      </div>
+            
+            </div><!--end of img row 2-->
         
         
-        
-        </div>
+  
         
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
+	  <script src="js/snap.svg-min.js"></script>
+	  <script>
+		  
+		  $(document).ready(function() {
+			  
+			  var cloud = new Snap('#cloud');
+			  var cloudPath = cloud.select('#cloudBorder');
+			  cloud.stop().animate({opacity: .1}, 1000, mina.easeout, function() {
+				  cloudPath.stop().animate({opacity: .8}, 2500, mina.easeout);
+			  });
+			  
+		  
+
+		  var rain = new Snap('#rain');
+			  var rainPath = rain.select('#rainBorder');
+			  rain.stop().animate({opacity: .1}, 1000, mina.easeout, function() {
+				  rainPath.stop().animate({opacity: .8}, 2500, mina.easeout);
+			  });
+			  
+		 
+
+		  var night = new Snap('#night');
+			  var nightPath = night.select('#nightBorder');
+			  night.stop().animate({opacity: .1}, 1000, mina.easeout, function() {
+				  nightPath.stop().animate({opacity: .8}, 2500, mina.easeout);
+			  });
+			  
+		  });
+		  
+		  
+	  </script>
     <script src="js/app.js"></script>
   </body>
 </html>
